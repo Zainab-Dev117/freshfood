@@ -1,0 +1,77 @@
+[
+    {
+      "id": 1,
+      "question": "What is FreshFind?",
+      "answer": "FreshFind helps residents discover nearby farmers markets and find fresh seasonal produce."
+    },
+    {
+      "id": 2,
+      "question": "How can I find a market near me?",
+      "answer": "You can use the Find a Market feature to search for markets by area, day of the week, or produce type."
+    },
+    {
+      "id": 3,
+      "question": "What information is available about a market?",
+      "answer": "You can view the market name, location, address, operating days, hours, description, and typical produce available."
+    },
+    {
+      "id": 4,
+      "question": "What produce can I find at farmers markets?",
+      "answer": "FreshFind provides information about typical produce available at different markets, including fruits, vegetables, herbs, dairy, and other product types."
+    },
+    {
+      "id": 5,
+      "question": "How can I search for a specific produce?",
+      "answer": "You can use the Produce Guide to browse and filter produce by product category."
+    },
+    {
+      "id": 6,
+      "question": "Can I search markets by day?",
+      "answer": "Yes. The Market Directory can be filtered by the day of the week to help you find markets operating on a particular day."
+    },
+    {
+      "id": 7,
+      "question": "Can I search markets by area?",
+      "answer": "Yes. You can filter the Market Directory by area or neighborhood to find relevant markets."
+    },
+    {
+      "id": 8,
+      "question": "Can I search markets by produce type?",
+      "answer": "Yes. Markets can be filtered according to the type of produce available."
+    },
+    {
+      "id": 9,
+      "question": "Where can I see a market's opening hours?",
+      "answer": "Select a market from the Market Directory to view its operating days and hours on the Market Detail page."
+    },
+    {
+      "id": 10,
+      "question": "Where can I find seasonal produce?",
+      "answer": "The Produce Guide and seasonal recommendations section provide information about produce and its typical season."
+    },
+    {
+      "id": 11,
+      "question": "Can I save my favorite markets?",
+      "answer": "Yes. FreshFind includes a bookmarking system for favorite markets and produce guide entries."
+    },
+    {
+      "id": 12,
+      "question": "Can I add notes to my bookmarks?",
+      "answer": "Yes. You can attach personal notes to bookmarked content during your session."
+    },
+    {
+      "id": 13,
+      "question": "Can I share a recommendation?",
+      "answer": "Yes. FreshFind provides social sharing options for bookmarked recommendations."
+    },
+    {
+      "id": 14,
+      "question": "How can I view a market location?",
+      "answer": "The Market Detail page provides the market address, area or neighborhood, and an embedded Google Map showing its location."
+    },
+    {
+      "id": 15,
+      "question": "Does FreshFind use a live AI chatbot?",
+      "answer": "No. The FreshFind chatbot uses a static, pre-scripted dataset and rule-based logic instead of a live external AI service."
+    }
+  ]

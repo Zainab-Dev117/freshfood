@@ -5,7 +5,10 @@
       "category": "Fruits",
       "description": "Fresh and naturally sweet apples commonly available at local farmers markets.",
       "season": "Fall",
-      "markets": [1, 5, 10]
+      "markets": [1, 5, 10],
+      "image": "images/products/apples.png"
+
+
     },
     {
       "id": 2,
@@ -13,7 +16,9 @@
       "category": "Vegetables",
       "description": "Fresh locally grown tomatoes suitable for salads, cooking, and everyday meals.",
       "season": "Summer",
-      "markets": [1, 6, 10]
+      "markets": [1, 6, 10],
+      "image": "images/products/tomato.png"
+
     },
     {
       "id": 3,
@@ -21,7 +26,9 @@
       "category": "Vegetables",
       "description": "Fresh and crunchy carrots grown locally and available during the cooler growing season.",
       "season": "Fall",
-      "markets": [1, 5]
+      "markets": [1, 5],
+      "image": "images/products/carrot.png"
+
     },
     {
       "id": 4,
@@ -29,7 +36,9 @@
       "category": "Herbs",
       "description": "A selection of fresh herbs used to add flavor to everyday dishes.",
       "season": "Spring",
-      "markets": [1]
+      "markets": [1],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 5,
@@ -37,7 +46,9 @@
       "category": "Dairy",
       "description": "Fresh locally produced milk available from local dairy producers.",
       "season": "Year-round",
-      "markets": [2, 9]
+      "markets": [2, 9],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 6,
@@ -45,7 +56,9 @@
       "category": "Dairy",
       "description": "Locally made fresh cheese available from small dairy producers.",
       "season": "Year-round",
-      "markets": [2]
+      "markets": [2],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 7,
@@ -53,7 +66,9 @@
       "category": "Vegetables",
       "description": "Fresh locally grown potatoes suitable for a variety of everyday dishes.",
       "season": "Fall",
-      "markets": [2, 7]
+      "markets": [2, 7],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 8,
@@ -61,7 +76,9 @@
       "category": "Vegetables",
       "description": "Fresh leafy spinach commonly used in salads and cooked dishes.",
       "season": "Spring",
-      "markets": [2, 8]
+      "markets": [2, 8],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 9,
@@ -69,7 +86,9 @@
       "category": "Fruits",
       "description": "Fresh seasonal strawberries that are naturally sweet and locally grown.",
       "season": "Spring",
-      "markets": [3, 9]
+      "markets": [3, 9],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 10,
@@ -77,7 +96,9 @@
       "category": "Vegetables",
       "description": "Fresh crisp lettuce suitable for salads and sandwiches.",
       "season": "Spring",
-      "markets": [3]
+      "markets": [3],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 11,
@@ -85,7 +106,9 @@
       "category": "Vegetables",
       "description": "Fresh locally grown cucumbers commonly used in salads and fresh dishes.",
       "season": "Summer",
-      "markets": [3, 9]
+      "markets": [3, 9],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 12,
@@ -93,7 +116,9 @@
       "category": "Herbs",
       "description": "Fresh aromatic basil commonly used in cooking and salads.",
       "season": "Summer",
-      "markets": [3, 10]
+      "markets": [3, 10],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 13,
@@ -101,7 +126,9 @@
       "category": "Fruits",
       "description": "Juicy seasonal peaches available from local growers.",
       "season": "Summer",
-      "markets": [4, 9]
+      "markets": [4, 9],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 14,
@@ -109,7 +136,9 @@
       "category": "Vegetables",
       "description": "Fresh sweet corn harvested locally during the warmer months.",
       "season": "Summer",
-      "markets": [4]
+      "markets": [4],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 15,
@@ -117,7 +146,9 @@
       "category": "Vegetables",
       "description": "Fresh colorful bell peppers suitable for salads and cooking.",
       "season": "Summer",
-      "markets": [4]
+      "markets": [4],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 16,
@@ -125,7 +156,9 @@
       "category": "Other",
       "description": "Locally produced honey collected from area beekeepers.",
       "season": "Year-round",
-      "markets": [4, 7]
+      "markets": [4, 7],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 17,
@@ -133,7 +166,9 @@
       "category": "Dairy",
       "description": "Fresh farm eggs supplied by local producers.",
       "season": "Year-round",
-      "markets": [5, 10]
+      "markets": [5, 10],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 18,
@@ -141,7 +176,9 @@
       "category": "Dairy",
       "description": "Fresh locally produced yogurt made from quality dairy products.",
       "season": "Year-round",
-      "markets": [5]
+      "markets": [5],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 19,
@@ -149,7 +186,9 @@
       "category": "Fruits",
       "description": "Fresh juicy oranges available from local fruit growers.",
       "season": "Winter",
-      "markets": [6]
+      "markets": [6],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 20,
@@ -157,7 +196,9 @@
       "category": "Herbs",
       "description": "Fresh aromatic mint commonly used in drinks, salads, and cooking.",
       "season": "Spring",
-      "markets": [6]
+      "markets": [6],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 21,
@@ -165,7 +206,9 @@
       "category": "Vegetables",
       "description": "Fresh green broccoli harvested locally during the cooler season.",
       "season": "Fall",
-      "markets": [6]
+      "markets": [6],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 22,
@@ -173,7 +216,9 @@
       "category": "Fruits",
       "description": "Fresh seasonal grapes supplied by local growers.",
       "season": "Fall",
-      "markets": [7]
+      "markets": [7],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 23,
@@ -181,7 +226,9 @@
       "category": "Bakery",
       "description": "Freshly prepared bread available from local bakers.",
       "season": "Year-round",
-      "markets": [7]
+      "markets": [7],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 24,
@@ -189,7 +236,9 @@
       "category": "Fruits",
       "description": "Fresh seasonal blueberries known for their sweet flavor and vibrant color.",
       "season": "Summer",
-      "markets": [8]
+      "markets": [8],
+      "image": "images/products/apples.png"
+
     },
     {
       "id": 25,
@@ -197,7 +246,8 @@
       "category": "Other",
       "description": "Fresh seasonal flowers grown and supplied by local growers.",
       "season": "Spring",
-      "markets": [8]
+      "markets": [8],
+      "image": "images/products/apples.png"
     },
     {
       "id": 26,
@@ -205,6 +255,7 @@
       "category": "Herbs",
       "description": "Fresh cilantro commonly used to add flavor to a variety of dishes.",
       "season": "Spring",
-      "markets": [8]
+      "markets": [8],
+      "image": "images/products/apples.png"
     }
   ]

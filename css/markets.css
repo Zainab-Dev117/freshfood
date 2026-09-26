@@ -1,0 +1,446 @@
+/* ================================
+   BREADCRUMB
+================================ */
+
+.breadcrumb-section {
+    background: #f6f8f3;
+    border-bottom: 1px solid #e5e9df;
+    padding: 16px 0;
+}
+
+.breadcrumb-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}
+
+.breadcrumb-wrapper a {
+    color: #4f7655;
+    text-decoration: none;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    transition: 0.3s ease;
+}
+
+.breadcrumb-wrapper a:hover {
+    color: #2f5737;
+}
+
+.breadcrumb-current {
+    color: #777;
+    font-weight: 500;
+}
+
+.breadcrumb-separator {
+    color: #a5afa1;
+    font-size: 11px;
+}
+
+.breadcrumb-wrapper i {
+    font-size: 12px;
+}
+
+
+.directory-hero-section {
+    background-color: var(--main-bg-color);
+    padding: 55px 20px 45px;
+}
+
+.directory-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.directory-content {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.directory-tag {
+    margin: 0 0 10px;
+    color: var(--highlight-color);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.directory-content h1 {
+    margin: 0 0 15px;
+    color: var(--heading-color);
+    font-family: "Playfair Display", serif;
+    font-size: 52px;
+}
+
+.directory-description {
+    margin: 0;
+    color: var(--secondary-text-color);
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* Filters */
+
+.market-filter-section {
+    background-color: var(--main-bg-color);
+    padding: 0 20px 40px;
+}
+
+.market-filter-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: var(--section-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.filter-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-heading h2 {
+    margin: 0;
+    color: var(--heading-color);
+}
+
+.filter-fields {
+    display: flex;
+    gap: 15px;
+}
+
+.filter-field {
+    flex: 1;
+}
+
+.filter-field label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filter-field select {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 9px;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    outline: none;
+}
+
+
+/* Market Cards */
+
+.market-directory-section {
+    background-color: var(--main-bg-color);
+    padding: 0 20px 50px;
+}
+
+.market-directory-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.directory-heading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.directory-heading h2 {
+    margin: 0;
+    color: var(--heading-color);
+}
+
+.directory-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.directory-card {
+    width: calc(33.333% - 12px);
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    overflow: hidden;
+
+        position: relative;
+}
+
+.directory-card-image {
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+}
+
+.directory-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.directory-card-content {
+    padding: 18px;
+}
+
+.directory-card-content h3 {
+    margin: 0 0 7px;
+    color: var(--heading-color);
+    font-size: 19px;
+}
+
+.market-area {
+    margin: 0 0 8px;
+    color: var(--highlight-color);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.market-days {
+    margin: 0 0 10px;
+    color: var(--secondary-text-color);
+    font-size: 13px;
+}
+
+.market-description {
+    margin: 0 0 15px;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.view-details-btn {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.view-details-btn:hover {
+    background-color: var(--btn-hover-color);
+    color: var(--btn-text-color);
+}
+
+
+.market-status {
+    position: absolute;
+    top: 175px;
+    left: 12px;
+    padding: 5px 9px;
+    border-radius: 15px;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    font-size: 12px;
+    z-index: 2;
+}
+
+
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .breadcrumb-section {
+        padding: 13px 0;
+    }
+
+    .breadcrumb-wrapper {
+        padding: 0 15px;
+        gap: 7px;
+        font-size: 12px;
+    }
+
+    .breadcrumb-wrapper i {
+        font-size: 10px;
+    }
+
+}
+
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+
+/* Tablet */
+
+@media (max-width: 991px) {
+
+    .directory-content h1 {
+        font-size: 44px;
+    }
+
+    .filter-fields {
+        flex-wrap: wrap;
+    }
+
+    .filter-field {
+        width: calc(50% - 8px);
+        flex: none;
+    }
+
+    .directory-card {
+        width: calc(50% - 9px);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    /* Breadcrumb */
+
+    .breadcrumb-section {
+        padding: 13px 0;
+    }
+
+    .breadcrumb-wrapper {
+        padding: 0 15px;
+        gap: 7px;
+        font-size: 12px;
+    }
+
+    .breadcrumb-wrapper i {
+        font-size: 10px;
+    }
+
+
+    /* Directory Hero */
+
+    .directory-hero-section {
+        padding: 40px 15px 35px;
+    }
+
+    .directory-content {
+        max-width: 100%;
+    }
+
+    .directory-tag {
+        font-size: 12px;
+    }
+
+    .directory-content h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .directory-description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    /* Filters */
+
+    .market-filter-section {
+        padding: 0 15px 30px;
+    }
+
+    .market-filter-wrapper {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .filter-heading {
+        margin-bottom: 18px;
+    }
+
+    .filter-heading h2 {
+        font-size: 22px;
+    }
+
+    .filter-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .filter-field {
+        width: 100%;
+    }
+
+    .filter-field label {
+        font-size: 13px;
+    }
+
+    .filter-field select {
+        padding: 10px;
+    }
+
+
+    /* Market Cards */
+
+    .market-directory-section {
+        padding: 0 15px 40px;
+    }
+
+    .directory-heading {
+        margin-bottom: 20px;
+    }
+
+    .directory-heading h2 {
+        font-size: 24px;
+    }
+
+    .directory-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .directory-card {
+        width: 100%;
+    }
+
+    .directory-card-image {
+        height: 200px;
+    }
+
+    .directory-card-content {
+        padding: 16px;
+    }
+
+    .directory-card-content h3 {
+        font-size: 18px;
+    }
+
+    .market-area {
+        font-size: 12px;
+    }
+
+    .market-days {
+        font-size: 12px;
+    }
+
+    .market-description {
+        font-size: 13px;
+    }
+
+    .view-details-btn {
+        padding: 9px 14px;
+        font-size: 12px;
+    }
+
+}

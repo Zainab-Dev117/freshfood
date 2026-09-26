@@ -1,0 +1,38 @@
+{
+  "Spring": {
+    "name": "Spring",
+    "months": ["March", "April", "May"],
+    "tagline": "Crisp greens, fragrant herbs & early seasonal berries",
+    "description": "Spring brings a refreshing wave of crisp leafy vegetables, vibrant strawberries, tender avocados, and fragrant freshly cut herbs.",
+    "icon": "fa-seedling",
+    "accentColor": "#10b981",
+    "produceIds": [4, 8, 9, 10, 20, 25, 26]
+  },
+  "Summer": {
+    "name": "Summer",
+    "months": ["June", "July", "August"],
+    "tagline": "Sun-ripened tomatoes, sweet corn & juicy peaches",
+    "description": "Warm summer sunshine produces the season's juiciest vine-ripened tomatoes, crisp cucumbers, sweet golden corn, and luscious orchard peaches.",
+    "icon": "fa-sun",
+    "accentColor": "#f59e0b",
+    "produceIds": [2, 11, 12, 13, 14, 15, 24]
+  },
+  "Fall": {
+    "name": "Autumn / Fall",
+    "months": ["September", "October", "November"],
+    "tagline": "Harvest apples, sweet root vegetables & hearty squash",
+    "description": "The autumn harvest features crisp orchard apples, sweet garden carrots, hearty farm potatoes, and nutrient-dense broccoli.",
+    "icon": "fa-leaf",
+    "accentColor": "#d97706",
+    "produceIds": [1, 3, 7, 21, 22]
+  },
+  "Winter": {
+    "name": "Winter",
+    "months": ["December", "January", "February"],
+    "tagline": "Tangy winter citrus, raw honey & rich country dairy",
+    "description": "Cooler winter days bring antioxidant-rich citrus oranges, nourishing dairy milk, artisan cheese, and raw wildflower honey.",
+    "icon": "fa-snowflake",
+    "accentColor": "#0284c7",
+    "produceIds": [5, 6, 16, 17, 18, 19, 23]
+  }
+}

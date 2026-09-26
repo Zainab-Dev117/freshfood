@@ -1,0 +1,1109 @@
+
+:root {
+
+    /* Background Colors */
+    --main-bg-color: #FBF9F2;
+    --section-bg-color: #EEF1E6;
+    --card-bg-color: #EEF1E6;
+
+    /* Text Colors */
+    --main-text-color: #2C4D3F;
+    --heading-color: #2C4D3F;
+    --secondary-text-color: #6B7C65;
+
+    /* Button Colors */
+    --btn-color: #5F8F68;
+    --btn-hover-color: #2C4D3F;
+    --btn-text-color: #FBF9F2;
+
+    /* Border Colors */
+    --border-color: #CCCBBC;
+
+    /* Logo Colors */
+    --logo-color: #2C4D3F;
+    --logo-detail-color: #695528;
+    --logo-leaf-color: #5F8F68;
+
+    /* Decorative Colors */
+    --decorative-color: #7C8A70;
+    --highlight-color: #BD8235;
+    --peach-color: #D7AC73;
+
+    /* Product / Accent Colors */
+    --product-red-color: #A12513;
+    --product-blue-color: #8FC1E6;
+}
+
+
+/* =========================================
+   GLOBAL STYLING
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.fresh-navbar {
+    background-color: var(--main-bg-color);
+    min-height: 76px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.fresh-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--logo-color) !important;
+}
+
+.fresh-logo h4 {
+    margin: 0;
+
+    font-family: "Playfair Display", serif;
+    font-size: 27px;
+    font-weight: 700;
+
+    line-height: 1;
+
+    color: var(--logo-color);
+}
+
+.fresh-logo small {
+    display: block;
+
+    margin-top: 5px;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+
+    letter-spacing: 0.3px;
+
+    color: var(--secondary-text-color);
+}
+
+
+/* =========================================
+   LOGO ICON
+========================================= */
+
+.logo-icon {
+    width: 43px;
+    height: 43px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--logo-detail-color);
+    font-size: 25px;
+}
+
+
+/* Logo Leaves */
+
+.logo-icon .leaf {
+    position: absolute;
+
+    width: 11px;
+    height: 18px;
+
+    background-color: var(--logo-leaf-color);
+
+    border-radius: 100% 0 100% 0;
+}
+
+.logo-icon .leaf-1 {
+    top: 2px;
+    left: 11px;
+
+    transform: rotate(-30deg);
+}
+
+.logo-icon .leaf-2 {
+    top: 5px;
+    right: 7px;
+
+    transform: rotate(30deg);
+}
+
+
+/* =========================================
+   NAVIGATION LINKS
+========================================= */
+
+.fresh-navbar .nav-link {
+    position: relative;
+
+    padding: 28px 15px !important;
+
+    color: var(--main-text-color) !important;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+.fresh-navbar .nav-link:hover {
+    color: var(--btn-color) !important;
+}
+
+
+/* =========================================
+   ACTIVE NAV LINK
+========================================= */
+
+.fresh-navbar .nav-link.active {
+    color: var(--heading-color) !important;
+}
+
+.fresh-navbar .nav-link.active::after {
+    content: "";
+
+    position: absolute;
+
+    left: 15px;
+    right: 15px;
+    bottom: 17px;
+
+    height: 2px;
+
+    background-color: var(--btn-color);
+}
+
+
+/* =========================================
+   NAVBAR ACTIONS
+========================================= */
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/* =========================================
+   SEARCH BUTTON
+========================================= */
+
+.nav-icon-btn {
+    width: 38px;
+    height: 38px;
+
+    border: none;
+
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--main-text-color);
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.nav-icon-btn:hover {
+    color: var(--btn-color);
+}
+
+.login-btn {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.login-btn:hover {
+    color: var(--btn-hover-color);
+    border-color: var(--btn-color);
+}
+
+.signup-btn {
+    text-decoration: none;
+    color: var(--btn-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 16px;
+    border-radius: 8px;
+    background-color: var(--btn-color);
+}
+
+.signup-btn:hover {
+    color: var(--btn-text-color);
+    background-color: var(--btn-hover-color);
+}
+
+
+/* =========================================
+   PROFILE BUTTON
+========================================= */
+
+.profile-btn {
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: var(--section-bg-color);
+
+    color: var(--main-text-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.profile-btn:hover {
+    background-color: var(--border-color);
+}
+
+
+/* =========================================
+   MOBILE NAVBAR TOGGLE
+========================================= */
+
+.fresh-navbar .navbar-toggler {
+    border: 1px solid var(--border-color);
+}
+
+.fresh-navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .fresh-navbar .nav-link {
+        padding: 12px 0 !important;
+    }
+
+    .fresh-navbar .nav-link.active::after {
+        display: none;
+    }
+
+    .navbar-actions {
+        padding: 10px 0 15px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 575.98px) {
+
+    .fresh-navbar {
+        min-height: 68px;
+    }
+
+    .fresh-logo h4 {
+        font-size: 23px;
+    }
+
+    .fresh-logo small {
+        font-size: 8px;
+    }
+
+    .logo-icon {
+        width: 37px;
+        height: 37px;
+        font-size: 22px;
+    }
+}
+/* Hero section start */
+.hero-section {
+    background-color: var(--main-bg-color);
+}
+
+/* Text left + image right */
+.hero-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Left side */
+.hero-content {
+    width: 50%;
+    padding: 45px 35px 45px 10px;
+    text-align: left;
+}
+
+/* Right side */
+.hero-image {
+    width: 50%;
+    height: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+/* hero done find market section start */
+.market-search-section {
+    background-color: var(--main-bg-color);
+    padding: 25px 20px 40px;
+}
+
+.market-search-box {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: var(--section-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.search-heading h2 {
+    margin: 0 0 5px;
+    color: var(--heading-color);
+}
+
+.search-heading p {
+    margin: 0 0 20px;
+    color: var(--secondary-text-color);
+}
+
+.search-fields {
+    display: flex;
+    gap: 15px;
+}
+
+.search-field {
+    flex: 1;
+    padding: 14px;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.search-field label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--main-text-color);
+    font-weight: bold;
+}
+
+.search-field select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--secondary-text-color);
+}
+
+.search-button {
+    border: none;
+    border-radius: 12px;
+    padding: 0 25px;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: var(--btn-hover-color);
+}
+/* find market end now featured markets start */
+.featured-markets-section {
+    background-color: var(--main-bg-color);
+    padding: 25px 20px 40px;
+}
+
+.featured-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.featured-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 18px;
+}
+
+.featured-heading h2 {
+    margin: 0;
+    color: var(--heading-color);
+}
+
+.featured-heading p {
+    margin: 5px 0 0;
+    color: var(--secondary-text-color);
+}
+
+.featured-heading a {
+    color: var(--main-text-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.market-cards {
+    display: flex;
+    gap: 18px;
+}
+
+.market-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    width: 100%;
+}
+
+    .market-card {
+        position: relative;
+        overflow: hidden;
+        background-color: var(--section-bg-color);
+        border: 1px solid var(--border-color);
+        border-radius: 14px;
+        width: 100%;
+    }
+
+.market-card img {
+    width: 100%;
+    height: 130px;
+    display: block;
+    object-fit: cover;
+}
+
+.market-status {
+    position: absolute;
+    top: 115px;
+    left: 12px;
+    padding: 5px 9px;
+    border-radius: 15px;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    font-size: 12px;
+}
+
+.market-card-content {
+    padding: 20px 15px 15px;
+}
+
+.market-card h3 {
+    margin: 0 0 10px;
+    color: var(--heading-color);
+}
+
+.market-card-content p {
+    margin: 7px 0;
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.market-card-content .market-description {
+    margin-top: 13px;
+    line-height: 1.5;
+}
+.no-market-message {
+    display: none;
+    margin-top: 20px;
+    color: var(--product-red-color);
+    font-weight: bold;
+}
+
+.no-market-message.show {
+    display: block;
+}
+
+/* sesional picks start here */
+.seasonal-picks-section {
+    padding: 0 20px 40px;
+    background-color: var(--main-bg-color);
+}
+
+.seasonal-picks-box {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: var(--section-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.seasonal-heading {
+    margin-bottom: 18px;
+}
+
+.seasonal-heading h2 {
+    margin: 0;
+    color: var(--heading-color);
+}
+
+.seasonal-heading p {
+    margin: 5px 0 0;
+    color: var(--secondary-text-color);
+}
+
+
+.seasonal-items {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 15px;
+    }
+
+.seasonal-item {
+    flex: 1;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.seasonal-item img {
+    width: 100%;
+    height: 140px;
+    display: block;
+    object-fit: cover;
+}
+
+.seasonal-item h3 {
+    margin: 10px 5px 2px;
+    color: var(--main-text-color);
+    font-size: 14px;
+}
+
+.seasonal-item p {
+    margin: 0 0 10px;
+    color: var(--secondary-text-color);
+    font-size: 12px;
+}
+/* chatbot start here */
+.chatbot-launcher {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(44, 77, 63, 0.3);
+    z-index: 1000;
+}
+
+
+/* Show message on hover */
+.chatbot-launcher:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.chatbot-launcher:hover {
+    background-color: var(--btn-hover-color);
+    transform: scale(1.08);
+}
+/* footer start */
+.site-footer {
+    padding: 25px 20px;
+    background-color: var(--btn-hover-color);
+}
+
+.footer-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: block;
+}
+
+.footer-logo img {
+    display: block;
+    width: auto;
+    height: 50px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a,
+.footer-socials a {
+    color: var(--btn-text-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-socials a {
+    font-size: 18px;
+}
+
+.footer-nav a:hover,
+.footer-socials a:hover {
+    color: var(--peach-color);
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .fresh-navbar .nav-link {
+        padding: 12px 0 !important;
+    }
+
+    .fresh-navbar .nav-link.active::after {
+        display: none;
+    }
+
+    .navbar-actions {
+        padding: 10px 0 15px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 575.98px) {
+
+    .fresh-navbar {
+        min-height: 68px;
+    }
+
+    .fresh-logo h4 {
+        font-size: 23px;
+    }
+
+    .fresh-logo small {
+        font-size: 8px;
+    }
+
+    .logo-icon {
+        width: 37px;
+        height: 37px;
+        font-size: 22px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .footer-content {
+        gap: 20px;
+    }
+
+    .footer-nav {
+        gap: 7px;
+    }
+
+    .footer-nav a {
+        font-size: 8px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .fresh-footer {
+        padding: 18px 0;
+    }
+
+    .footer-content {
+        min-height: auto;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        gap: 12px;
+
+        text-align: center;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .footer-leaf-decoration {
+        display: none;
+    }
+
+}
+
+
+/* content */
+
+/* =========================================
+   HOME PAGE RESPONSIVE
+   NAVBAR & FOOTER NOT CHANGED
+========================================= */
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    /* HERO - UP/DOWN */
+
+    .hero-wrapper {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 35px 20px;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 350px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* FIND MARKET - UP/DOWN */
+
+    .search-fields {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .search-field {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 100%;
+        min-height: 48px;
+        padding: 12px;
+    }
+
+
+    /* FEATURED MARKETS - CENTER */
+
+    .market-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        justify-items: center;
+    }
+
+    .market-card {
+        width: 100%;
+    }
+
+
+    /* SEASONAL PICKS - UP/DOWN */
+
+    .seasonal-items {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .seasonal-item {
+        width: 100%;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    /* HERO */
+
+    .hero-wrapper {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 300px;
+    }
+
+
+    /* FIND MARKET */
+
+    .market-search-section {
+        padding: 20px 15px 30px;
+    }
+
+    .market-search-box {
+        padding: 18px;
+        border-radius: 15px;
+    }
+
+    .search-fields {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .search-field {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 100%;
+    }
+
+
+    /* FEATURED MARKETS */
+
+    .featured-markets-section {
+        padding: 20px 15px 30px;
+    }
+
+    .featured-heading {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+    }
+
+    .market-cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 18px;
+    }
+
+    .market-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    /* SEASONAL PICKS */
+
+    .seasonal-picks-section {
+        padding: 0 15px 30px;
+    }
+
+    .seasonal-picks-box {
+        padding: 18px;
+    }
+
+    .seasonal-heading {
+        text-align: center;
+    }
+
+    .seasonal-items {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .seasonal-item {
+        width: 100%;
+    }
+
+
+    /* CHATBOT */
+
+    .chatbot-launcher {
+        right: 18px;
+        bottom: 18px;
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 575.98px) {
+
+    /* HERO */
+
+    .hero-content {
+        padding: 25px 15px;
+    }
+
+    .hero-image {
+        height: 240px;
+    }
+
+
+    /* FIND MARKET */
+
+    .market-search-section {
+        padding: 15px 12px 25px;
+    }
+
+    .market-search-box {
+        padding: 15px;
+    }
+
+    .search-fields {
+        flex-direction: column;
+    }
+
+
+    /* FEATURED MARKETS */
+
+    .featured-markets-section {
+        padding: 15px 12px 25px;
+    }
+
+    .featured-heading {
+        text-align: center;
+        align-items: center;
+    }
+
+    .market-cards {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .market-card {
+        width: 100%;
+        max-width: 380px;
+    }
+
+
+    /* SEASONAL PICKS */
+
+    .seasonal-picks-section {
+        padding: 0 12px 25px;
+    }
+
+    .seasonal-picks-box {
+        padding: 15px;
+    }
+
+    .seasonal-items {
+        flex-direction: column;
+    }
+
+    .seasonal-item {
+        width: 100%;
+    }
+
+
+    /* CHATBOT */
+
+    .chatbot-launcher {
+        right: 15px;
+        bottom: 15px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+}

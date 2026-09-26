@@ -1,0 +1,225 @@
+.signup-section {
+    min-height: 80vh;
+    background-color: var(--main-bg-color);
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.signup-heading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signup-heading p {
+    margin: 0 0 8px;
+    color: var(--highlight-color);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.signup-heading h1 {
+    margin: 0 0 10px;
+    color: var(--heading-color);
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+}
+
+.signup-heading span {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+}
+
+.signup-box {
+    padding: 30px;
+    background-color: var(--section-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    outline: none;
+}
+
+.signup-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup-submit:hover {
+    background-color: var(--btn-hover-color);
+}
+
+.login-text {
+    margin: 20px 0 0;
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-size: 13px;
+}
+
+.login-text a {
+    color: var(--btn-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-text a:hover {
+    color: var(--btn-hover-color);
+}
+
+ /* =========================================
+    SIGNUP PAGE RESPONSIVE
+ ========================================= */
+
+
+ /* =========================================
+    TABLET
+ ========================================= */
+
+ @media (max-width: 991.98px) {
+
+    .signup-section {
+        min-height: auto;
+        padding: 50px 20px;
+    }
+
+    .signup-container {
+        max-width: 430px;
+    }
+
+    .signup-heading h1 {
+        font-size: 34px;
+    }
+
+    .signup-box {
+        padding: 25px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .signup-section {
+        min-height: auto;
+        padding: 40px 15px;
+    }
+
+    .signup-container {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .signup-heading {
+        margin-bottom: 20px;
+    }
+
+    .signup-heading p {
+        font-size: 12px;
+    }
+
+    .signup-heading h1 {
+        font-size: 30px;
+    }
+
+    .signup-heading span {
+        font-size: 13px;
+    }
+
+    .signup-box {
+        padding: 22px;
+        border-radius: 14px;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+    }
+
+    .form-group label {
+        font-size: 13px;
+    }
+
+    .form-group input {
+        padding: 11px;
+    }
+
+    .signup-submit {
+        padding: 11px;
+    }
+
+    .login-text {
+        font-size: 12px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 575.98px) {
+
+    .signup-section {
+        padding: 30px 12px;
+    }
+
+    .signup-heading h1 {
+        font-size: 27px;
+    }
+
+    .signup-heading span {
+        font-size: 12px;
+    }
+
+    .signup-box {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    .form-group input {
+        padding: 10px;
+    }
+
+    .signup-submit {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+}
